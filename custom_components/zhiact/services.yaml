@@ -1,0 +1,36 @@
+actuate:
+  description: Tune entity based on sensor state
+  fields:
+    sensor_id:
+      description: Sensor ID
+      example: sensor.temperature
+    sensor_attr:
+      description: Sensor attribute key. Default means sensor state
+      example: hcho
+    sensor_values:
+      description: Sensor value array
+      example: '[23, 26, 30]'
+    alt_sensor_values:
+      description: Alternative sensor value array for special time range
+      example: '[25, 28, 32]'
+    alt_time_range:
+      description: Alternative time range. Default is 20:00 pm ~ 8:00 am
+      example: '[20, 8]'
+    entity_id:
+      description: Entity ID to Tune
+      example: fan.ceiling_fan
+    entity_attr:
+      description: Sensor attribute key. Default means entity state
+      example: speed_level
+    service:
+      description: Service name to call. Default means set_{service_attr or entity_attr}
+      example: fan.set_speed
+    service_attr:
+      description: Service attribute key. Deault means same as {entity_attr}
+      example: speed
+    entity_values:
+      description: Entity value array for service call
+      example: '[low, medium, high]'
+    delay:
+      description: Delay seconds, calls from now to now+delay will be ignored. Default 120
+      example: 120
