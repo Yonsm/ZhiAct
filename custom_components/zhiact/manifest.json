@@ -1,0 +1,8 @@
+{
+	"domain": "zhiact",
+	"name": "Zhi Actuator",
+	"documentation": "https://github.com/Yonsm/ZhiAct",
+	"requirements": [],
+	"dependencies": [],
+	"codeowners": ["@Yonsm"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Zhi Actuator",
+  "domains": ["zhiact"],
+  "render_readme": true
+}
