@@ -2,6 +2,7 @@
 	"domain": "zhiact",
 	"name": "Zhi Actuator",
 	"documentation": "https://github.com/Yonsm/ZhiAct",
+	"version": "1.0.1",
 	"requirements": [],
 	"dependencies": [],
 	"codeowners": ["@Yonsm"]

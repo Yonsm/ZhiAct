@@ -1,4 +1,4 @@
-# ZhiAct
+# [https://github.com/Yonsm/ZhiAct](https://github.com/Yonsm/ZhiAct)
 
 Actuating Service Automatically for HomeAssistant
 
@@ -12,7 +12,7 @@ Actuating Service Automatically for HomeAssistant
 
 ## 2. 配置方法
 
-参见[我的 Home Assistant 配置](https://github.com/Yonsm/.homeassistant)中 [configuration.yaml](https://github.com/Yonsm/.homeassistant/blob/main/configuration.yaml)
+参见 [我的 Home Assistant 配置](https://github.com/Yonsm/.homeassistant) 中 [configuration.yaml](https://github.com/Yonsm/.homeassistant/blob/main/configuration.yaml)
 
 ```
 zhiact:
@@ -49,7 +49,7 @@ zhiact:
 
 控制出来的温度曲线呈锯齿状，后半夜 2-7 点的控温规则高一点：
 
-![PREVIEW](PREVIEW.jpg)
+![PREVIEW](https://github.com/Yonsm/ZhiAct/blob/main/PREVIEW.jpg)
 
 `HomeAssistant` 越改越作死，连空调的开关状态都没有历史可查了。我们可以在 `configuration.yaml` 里面做如下配置，可以方便看一整天下来空调所处的模式：
 
