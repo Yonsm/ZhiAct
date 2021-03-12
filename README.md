@@ -14,7 +14,7 @@ Actuating Service Automatically for HomeAssistant
 
 参见 [我的 Home Assistant 配置](https://github.com/Yonsm/.homeassistant) 中 [configuration.yaml](https://github.com/Yonsm/.homeassistant/blob/main/configuration.yaml)
 
-```
+```yaml
 zhiact:
 ```
 
@@ -24,7 +24,7 @@ zhiact:
 
 举个例子，根据温度来控制空调档位：
 
-```
+```yaml
 - alias: 书房空调温度变化
   trigger:
     - platform: time
@@ -53,7 +53,7 @@ zhiact:
 
 `HomeAssistant` 越改越作死，连空调的开关状态都没有历史可查了。我们可以在 `configuration.yaml` 里面做如下配置，可以方便看一整天下来空调所处的模式：
 
-```
+```yaml
 sensors:
   - platform: template
     sensors:
@@ -66,6 +66,6 @@ sensors:
 
 ## 4. 参考
 
--   [Yonsm.NET](https://yonsm.github.io)
--   [Hassbian.com](https://bbs.hassbian.com/thread-7876-1-1.html)
--   [Yonsm's .homeassistant](https://github.com/Yonsm/.homeassistant)
+- [Yonsm.NET](https://yonsm.github.io)
+- [Hassbian.com](https://bbs.hassbian.com/thread-7876-1-1.html)
+- [Yonsm's .homeassistant](https://github.com/Yonsm/.homeassistant)
