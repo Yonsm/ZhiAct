@@ -37,7 +37,7 @@ def execute(params):
 
     state = _hass.states.get(entity_id)
     if state is None:
-        _LOGGER.error("Entity %s error", sensor_id)
+        _LOGGER.error("Entity %s error", entity_id)
         return
     state_value = state.state
     state_attributes = state.attributes
