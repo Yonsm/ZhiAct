@@ -21,13 +21,13 @@ actuate:
       example: fan.ceiling_fan
     entity_attr:
       description: Sensor attribute key. Default means entity state
-      example: speed_level
+      example: mode
     service:
       description: Service name to call. Default means set_{service_attr or entity_attr}
-      example: fan.set_speed
+      example: fan.set_preset_mode
     service_attr:
       description: Service attribute key. Deault means same as {entity_attr}
-      example: speed
+      example: preset_mode
     entity_values:
       description: Entity value array for service call
       example: '[low, medium, high]'
