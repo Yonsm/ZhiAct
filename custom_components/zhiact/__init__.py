@@ -1,4 +1,5 @@
 
+import time
 import datetime
 import voluptuous as vol
 import homeassistant.helpers.config_validation as cv
@@ -111,6 +112,7 @@ def execute(params):
                 entity_log += ', ⇒on'
                 _hass.services.call(domain, 'turn_on', {
                                     'entity_id': entity_id}, True)
+                time.sleep(2)
 
             if from_value == to_value:
                 _LOGGER.debug('%s; %s', sensor_log, entity_log)
